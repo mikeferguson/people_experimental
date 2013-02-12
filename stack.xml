@@ -1,0 +1,18 @@
+<stack>
+  <description brief="Experimental/research packages related to perceiving and interacting with people.">people_experimental</description>
+  <author>Maintained by Caroline Pantofaru</author>
+  <license>BSD</license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/people_experimental</url>
+  <depend stack="common" /> <!-- bfl -->
+  <depend stack="common_msgs" /> <!-- sensor_msgs, geometry_msgs -->
+  <depend stack="geometry" /> <!-- tf, bullet -->
+  <depend stack="image_common" /> <!-- image_transport -->
+  <depend stack="image_pipeline" /> <!-- stereo_msgs -->
+  <depend stack="laser_pipeline" /> <!-- laser_geometry -->
+  <depend stack="people" /> <!-- people_msgs -->
+  <depend stack="ros" /> <!-- std_srvs, std_msgs, roscpp, message_filters -->
+  <depend stack="vision_opencv" /> <!-- opencv2, cv_bridge -->
+  <depend stack="visualization_common" /> <!-- visualization_msgs -->
+
+</stack>
